@@ -1,0 +1,10 @@
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\bin\Debug\LMS.exe.config
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\bin\Debug\LMS.exe
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\bin\Debug\LMS.pdb
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.csproj.AssemblyReference.cache
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.Form1.resources
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.Properties.Resources.resources
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.csproj.GenerateResource.cache
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.csproj.CoreCompileInputs.cache
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.exe
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.pdb
