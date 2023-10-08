@@ -9,3 +9,6 @@ E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Managemen
 E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.exe
 E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.pdb
 E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.Form2.resources
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\bin\Debug\MaterialSkin.dll
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.Form3.resources
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.csproj.CopyComplete
