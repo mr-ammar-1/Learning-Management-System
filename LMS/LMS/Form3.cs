@@ -23,11 +23,16 @@ namespace LMS
             materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Indigo500, MaterialSkin.Primary.Indigo500, MaterialSkin.Primary.Indigo200, MaterialSkin.Accent.Pink200,MaterialSkin.TextShade.WHITE);
+            materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.BlueGrey500, MaterialSkin.Primary.BlueGrey500, MaterialSkin.Primary.BlueGrey200, MaterialSkin.Accent.Pink200,MaterialSkin.TextShade.WHITE);
             
         }
 
         private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
         {
 
         }
