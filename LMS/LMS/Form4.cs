@@ -7,14 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MaterialSkin.Controls;
 
 namespace LMS
 {
-    public partial class Form4 : Form
+    public partial class Dashboard : MaterialForm
     {
-        public Form4()
+        public Dashboard()
         {
             InitializeComponent();
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

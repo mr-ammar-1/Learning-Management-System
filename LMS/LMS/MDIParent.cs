@@ -68,7 +68,7 @@ namespace LMS
 
         private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
+            
         }
 
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -102,6 +102,19 @@ namespace LMS
             {
                 childForm.Close();
             }
+        }
+
+        private void MDIParent_Load(object sender, EventArgs e)
+        {
+            Dashboard ds = new Dashboard();
+            ds.MdiParent = this;
+            ds.Show();
+            ds.WindowState = FormWindowState.Maximized;
+        }
+
+        private void toolStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }
