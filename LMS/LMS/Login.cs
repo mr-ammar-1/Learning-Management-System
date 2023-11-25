@@ -21,5 +21,55 @@ namespace LMS
         {
 
         }
+
+        private void materialCheckbox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialTextBox1_Click(object sender, EventArgs e)
+        {
+            if (materialTextBox1.Text == "Enter Username")
+            {
+                materialTextBox1.Text = "";
+                materialTextBox1.ForeColor = Color.Black;
+            }
+        }
+
+        private void materialTextBox1_Leave(object sender, EventArgs e)
+        {
+            if (materialTextBox1.Text == "Enter Username")
+            {
+                materialTextBox1.Text = "";
+                materialTextBox1.ForeColor = Color.Silver;
+            }
+        }
+
+        private void materialTextBox4_Click(object sender, EventArgs e)
+        {
+            if (materialTextBox4.Text == "Password")
+            {
+                materialTextBox4.Text = "";
+                materialTextBox4.ForeColor = Color.Black;
+            }
+        }
+        private void materialTextBox4_Leave(object sender, EventArgs e)
+        {
+            if (materialTextBox4.Text == "Password")
+            {
+                materialTextBox4.Text = "";
+                materialTextBox4.ForeColor = Color.Silver;
+            }
+        }
+
+        private void materialButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
