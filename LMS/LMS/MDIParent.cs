@@ -106,7 +106,7 @@ namespace LMS
 
         private void MDIParent_Load(object sender, EventArgs e)
         {
-            Dashboard ds = new Dashboard();
+            Login ds = new Login();
             ds.MdiParent = this;
             ds.Show();
             ds.WindowState = FormWindowState.Maximized;
