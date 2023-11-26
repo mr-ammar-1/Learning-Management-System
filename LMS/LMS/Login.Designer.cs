@@ -76,7 +76,7 @@ namespace LMS
             this.materialTextBox4.AnimateReadOnly = false;
             this.materialTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.materialTextBox4.Depth = 0;
-            this.materialTextBox4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.materialTextBox4.LeadingIcon = null;
             this.materialTextBox4.Location = new System.Drawing.Point(114, 121);
             this.materialTextBox4.MaxLength = 50;
@@ -181,7 +181,7 @@ namespace LMS
             this.materialTextBox1.AnimateReadOnly = false;
             this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.materialTextBox1.Depth = 0;
-            this.materialTextBox1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.materialTextBox1.LeadingIcon = null;
             this.materialTextBox1.Location = new System.Drawing.Point(114, 65);
             this.materialTextBox1.MaxLength = 50;
@@ -210,6 +210,7 @@ namespace LMS
             this.materialCheckbox1.TabIndex = 14;
             this.materialCheckbox1.Text = "Show";
             this.materialCheckbox1.UseVisualStyleBackColor = true;
+            this.materialCheckbox1.CheckedChanged += new System.EventHandler(this.materialCheckbox1_CheckedChanged);
             // 
             // materialCheckbox2
             // 

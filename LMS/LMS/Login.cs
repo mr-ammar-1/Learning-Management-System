@@ -71,5 +71,17 @@ namespace LMS
         {
 
         }
+
+        private void materialCheckbox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (materialCheckbox1.Checked)
+            {
+                materialTextBox4.Password = false;
+            }
+            else
+            {
+                materialTextBox4.Password = true;
+            }
+        }
     }
 }
