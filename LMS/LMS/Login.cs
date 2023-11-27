@@ -69,7 +69,8 @@ namespace LMS
 
         private void materialButton1_Click(object sender, EventArgs e)
         {
-
+            FullDashboard fd = new FullDashboard();
+            
         }
 
         private void materialCheckbox1_CheckedChanged(object sender, EventArgs e)
