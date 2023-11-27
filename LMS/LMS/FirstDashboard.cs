@@ -35,5 +35,15 @@ namespace LMS
             control.Focus();
             Content.Controls.Add(control);
         }
+        public void LoadUserControlIntoPanel(UserControl userControl)
+        {
+            Content.Controls.Clear();
+            Content.Controls.Add(userControl);
+            userControl.Dock = DockStyle.Fill;
+        }
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

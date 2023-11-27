@@ -69,8 +69,11 @@ namespace LMS
 
         private void materialButton1_Click(object sender, EventArgs e)
         {
-            FullDashboard fd = new FullDashboard();
-            
+            FirstDashboard fd = new FirstDashboard();
+            UserControl userControl = new UserControl();
+            fd.LoadUserControlIntoPanel(userControl);
+
+
         }
 
         private void materialCheckbox1_CheckedChanged(object sender, EventArgs e)

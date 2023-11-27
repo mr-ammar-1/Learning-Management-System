@@ -13,3 +13,5 @@ E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Managemen
 E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.mainDashboard.resources
 E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.Login.resources
 E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.csproj.AssemblyReference.cache
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.Controls.AdmissionControls.resources
+E:\University_Data\Fifth Semester\SE Lab\Mid Project\Git Repo\Learning-Management-System\LMS\LMS\obj\Debug\LMS.FirstDashboard.resources
