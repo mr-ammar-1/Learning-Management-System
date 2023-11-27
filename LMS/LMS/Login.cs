@@ -83,5 +83,10 @@ namespace LMS
                 materialTextBox4.Password = true;
             }
         }
+
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
