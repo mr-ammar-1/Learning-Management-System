@@ -57,6 +57,12 @@
     <Compile Include="Controls\AdmissionControls.Designer.cs">
       <DependentUpon>AdmissionControls.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\RegistrationFormControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RegistrationFormControl.Designer.cs">
+      <DependentUpon>RegistrationFormControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="CrendialDL.cs" />
     <Compile Include="Credentials.cs" />
     <Compile Include="Dashboard.cs">
@@ -93,6 +99,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\AdmissionControls.resx">
       <DependentUpon>AdmissionControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RegistrationFormControl.resx">
+      <DependentUpon>RegistrationFormControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>

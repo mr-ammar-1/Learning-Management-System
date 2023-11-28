@@ -25,7 +25,7 @@ namespace LMS
         private void button1_Click(object sender, EventArgs e)
         {
             AdmissionControls dc = new AdmissionControls();
-            showControls(dc);
+            
         }
         public void showControls(Control control)
         {
