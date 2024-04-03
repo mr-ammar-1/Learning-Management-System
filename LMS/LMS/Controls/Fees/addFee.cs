@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace LMS.Controls
 {
-    public partial class RegistrationFormControl : UserControl
+    public partial class addFee : UserControl
     {
-        public RegistrationFormControl()
+        public addFee()
         {
             InitializeComponent();
         }
 
-        private void RegistrationFormControl_Load(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }

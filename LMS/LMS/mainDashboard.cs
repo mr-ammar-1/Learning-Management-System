@@ -29,5 +29,10 @@ namespace LMS
         {
 
         }
+
+        private void materialTabSelector1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
