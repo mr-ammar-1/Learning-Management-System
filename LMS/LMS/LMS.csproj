@@ -39,6 +39,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -51,20 +52,136 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controls\AdmissionControls.cs">
+    <Compile Include="Classes\mainClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\mainControllerClass.cs" />
+    <Compile Include="Controls\Assignment\AssignmentControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Controls\AdmissionControls.Designer.cs">
-      <DependentUpon>AdmissionControls.cs</DependentUpon>
+    <Compile Include="Controls\Assignment\AssignmentControl.Designer.cs">
+      <DependentUpon>AssignmentControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Controls\RegistrationFormControl.cs">
+    <Compile Include="Controls\Assignment\submitAssignment.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Controls\RegistrationFormControl.Designer.cs">
-      <DependentUpon>RegistrationFormControl.cs</DependentUpon>
+    <Compile Include="Controls\Assignment\submitAssignment.Designer.cs">
+      <DependentUpon>submitAssignment.cs</DependentUpon>
     </Compile>
-    <Compile Include="CrendialDL.cs" />
-    <Compile Include="Credentials.cs" />
+    <Compile Include="Controls\Attendance\Student\AddupdateAttendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Attendance\Student\AddupdateAttendance.Designer.cs">
+      <DependentUpon>AddupdateAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Attendance\Student\StudentAttendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Attendance\Student\StudentAttendance.Designer.cs">
+      <DependentUpon>StudentAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Attendance\Teacher\addUpdateAttendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Attendance\Teacher\addUpdateAttendance.Designer.cs">
+      <DependentUpon>addUpdateAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Attendance\Teacher\teachersattendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Attendance\Teacher\teachersattendance.Designer.cs">
+      <DependentUpon>teachersattendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Class Management\manageClass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Class Management\manageClass.Designer.cs">
+      <DependentUpon>manageClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Courses\addCourse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Courses\addCourse.Designer.cs">
+      <DependentUpon>addCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Courses\adminCourse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Courses\adminCourse.Designer.cs">
+      <DependentUpon>adminCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Courses\Courses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Courses\Courses.Designer.cs">
+      <DependentUpon>Courses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Fees\addFee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Fees\addFee.Designer.cs">
+      <DependentUpon>addFee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Fees\submitFees.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Fees\submitFees.Designer.cs">
+      <DependentUpon>submitFees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Profile\profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Profile\profile.Designer.cs">
+      <DependentUpon>profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Profile\TeacherProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Profile\TeacherProfile.Designer.cs">
+      <DependentUpon>TeacherProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Registration\Student Reg\AdmissionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Registration\Student Reg\AdmissionControl.Designer.cs">
+      <DependentUpon>AdmissionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Class Management\ClassControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Class Management\ClassControl.Designer.cs">
+      <DependentUpon>ClassControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Fees\feesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Fees\feesControl.Designer.cs">
+      <DependentUpon>feesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Registration\Teacher Reg\registerStaffControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Registration\Teacher Reg\registerStaffControl.Designer.cs">
+      <DependentUpon>registerStaffControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Registration\Student Reg\RegistrationForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Registration\Student Reg\RegistrationForm.Designer.cs">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Class Management\SectionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Class Management\SectionControl.Designer.cs">
+      <DependentUpon>SectionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Registration\Teacher Reg\StaffControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Registration\Teacher Reg\StaffControl.Designer.cs">
+      <DependentUpon>StaffControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +193,12 @@
     </Compile>
     <Compile Include="FirstDashboard.Designer.cs">
       <DependentUpon>FirstDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -97,17 +220,89 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Controls\AdmissionControls.resx">
-      <DependentUpon>AdmissionControls.cs</DependentUpon>
+    <Compile Include="StudentDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentDashboard.Designer.cs">
+      <DependentUpon>StudentDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherDashboard.Designer.cs">
+      <DependentUpon>TeacherDashboard.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Controls\Assignment\AssignmentControl.resx">
+      <DependentUpon>AssignmentControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Controls\RegistrationFormControl.resx">
-      <DependentUpon>RegistrationFormControl.cs</DependentUpon>
+    <EmbeddedResource Include="Controls\Assignment\submitAssignment.resx">
+      <DependentUpon>submitAssignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Attendance\Student\AddupdateAttendance.resx">
+      <DependentUpon>AddupdateAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Attendance\Student\StudentAttendance.resx">
+      <DependentUpon>StudentAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Attendance\Teacher\addUpdateAttendance.resx">
+      <DependentUpon>addUpdateAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Attendance\Teacher\teachersattendance.resx">
+      <DependentUpon>teachersattendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Class Management\manageClass.resx">
+      <DependentUpon>manageClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Courses\addCourse.resx">
+      <DependentUpon>addCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Courses\adminCourse.resx">
+      <DependentUpon>adminCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Courses\Courses.resx">
+      <DependentUpon>Courses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Fees\addFee.resx">
+      <DependentUpon>addFee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Fees\submitFees.resx">
+      <DependentUpon>submitFees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Profile\profile.resx">
+      <DependentUpon>profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Profile\TeacherProfile.resx">
+      <DependentUpon>TeacherProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Registration\Student Reg\AdmissionControl.resx">
+      <DependentUpon>AdmissionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Class Management\ClassControl.resx">
+      <DependentUpon>ClassControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Fees\feesControl.resx">
+      <DependentUpon>feesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Registration\Teacher Reg\registerStaffControl.resx">
+      <DependentUpon>registerStaffControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Registration\Student Reg\RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Class Management\SectionControl.resx">
+      <DependentUpon>SectionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Registration\Teacher Reg\StaffControl.resx">
+      <DependentUpon>StaffControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FirstDashboard.resx">
       <DependentUpon>FirstDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -128,6 +323,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="StudentDashboard.resx">
+      <DependentUpon>StudentDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherDashboard.resx">
+      <DependentUpon>TeacherDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -156,6 +357,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\unauthorized-person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\Rolemanegement\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -118,6 +118,7 @@ namespace LMS
             // materialButton1
             // 
             this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             this.materialButton1.Depth = 0;
             this.materialButton1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -139,6 +140,7 @@ namespace LMS
             // materialButton2
             // 
             this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             this.materialButton2.Depth = 0;
             this.materialButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
